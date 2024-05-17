@@ -1,0 +1,45 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "http://example.com/body.schema.json",
+	"type": "object",
+	"properties": {
+	  "starSystem": {
+		"type": "string",
+		"description": "The star system this body belongs to.",
+		"example": "Solaris"
+	  },
+	  "bodies": {
+		"type": "array",
+		"items": {
+		  "type": "object",
+		  "properties": {
+			"name": {
+			  "type": "string",
+			  "description": "The name of the celestial body."
+			},
+			"Base": {
+			  "type": "object",
+			  "description": "Base properties common to all bodies.",
+			  "properties": {
+				"surfaceGravity": { "type": "number" },
+				"hasMapMarker": { "type": "boolean" },
+				"hasClouds": { "type": "boolean" },
+				"hasOcean": { "type": "boolean" },
+				"radius": { "type": "number" }
+			  }
+			},
+			"Orbit": {
+			  "type": "object",
+			  "description": "Orbital properties.",
+			  "properties": {
+				"semiMajorAxis": { "type": "number" },
+				"eccentricity": { "type": "number" },
+				"inclination": { "type": "number" }
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"required": ["starSystem", "bodies"]
+  }

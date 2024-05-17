@@ -1,8 +1,8 @@
 {
-  "filename": "NewHorizonsConfig.dll",
-  "author": "[your name]",
-  "name": "[your readable mod name]",
-  "uniqueName": "[your name].[your unique mod ID]",
+  "filename": "OlmoMod.dll",
+  "author": "Andressance",
+  "name": "OlmoMod",
+  "uniqueName": "Andressance.OlmoMod",
   "version": "0.0.0",
   "owmlVersion": "2.7.2",
   "dependencies": [ "xen.NewHorizons" ]

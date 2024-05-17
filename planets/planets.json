@@ -1,0 +1,67 @@
+
+  {
+	"starSystem": "Solaris",
+	"bodies": [
+	  {
+		"name": "PlanetAstra",
+		"Base": {
+		  "surfaceGravity": 9.8,
+		  "hasMapMarker": true,
+		  "hasClouds": true,
+		  "hasOcean": false,
+		  "radius": 6371
+		},
+		"Orbit": {
+		  "semiMajorAxis": 150000000,
+		  "eccentricity": 0.0167,
+		  "inclination": 0
+		}
+	  },
+	  {
+		"name": "PlanetBorealis",
+		"Base": {
+		  "surfaceGravity": 3.7,
+		  "hasMapMarker": true,
+		  "hasClouds": false,
+		  "hasOcean": false,
+		  "radius": 3389
+		},
+		"Orbit": {
+		  "semiMajorAxis": 227943824,
+		  "eccentricity": 0.0935,
+		  "inclination": 1.85
+		}
+	  },
+	  {
+		"name": "PlanetCeres",
+		"Base": {
+		  "surfaceGravity": 0.27,
+		  "hasMapMarker": true,
+		  "hasClouds": false,
+		  "hasOcean": false,
+		  "radius": 473
+		},
+		"Orbit": {
+		  "semiMajorAxis": 413690250,
+		  "eccentricity": 0.078,
+		  "inclination": 10.6
+		}
+	  },
+	  {
+		"name": "PlanetDione",
+		"Base": {
+		  "surfaceGravity": 1.62,
+		  "hasMapMarker": true,
+		  "hasClouds": false,
+		  "hasOcean": false,
+		  "radius": 1737
+		},
+		"Orbit": {
+		  "semiMajorAxis": 384400,
+		  "eccentricity": 0.0549,
+		  "inclination": 5.145
+		}
+	  }
+	]
+  }
+  
